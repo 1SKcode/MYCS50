@@ -1,0 +1,9 @@
+UPDATE table SET column = value WHERE condition
+
+
+UPDATE favorites SET language = 'C++' WHERE language = 'C';
+
+И ОБРАТНО:
+
+UPDATE favorites SET language = 'C' WHERE language = 'C++';
+

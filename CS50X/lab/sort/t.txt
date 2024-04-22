@@ -1,0 +1,9 @@
+	rand10к	reversed10k	sorted10k
+sort1	0.223	0.250		0.077		-BUBBLE
+sort2	0.089	0.092		0.077		-MERGE
+sort3	0.150	0.150		0.150		-SELECTION
+
+	rand50k	reversed50k	sorted50k
+sort1	6.000	5.300		0.500		-Bubble sort
+sort2	0.500	0.600		0.500		-Merge sort
+sort3	2.500	2.500		2.500		-Selection sort

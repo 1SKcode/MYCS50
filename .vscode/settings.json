@@ -1,0 +1,17 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "stdio.h": "c",
+        "locale.h": "c",
+        "string": "c",
+        "string.h": "c",
+        "limits.h": "c",
+        "*.tcc": "c",
+        "string_view": "c",
+        "algorithm": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "utility": "c"
+    },
+    "files.defaultLanguage": "ут"
+}

@@ -1,0 +1,134 @@
+/* Основной стиль страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('HD-wallpaper-galaxy-stars-galaxy-purple-space-stars.jpg') center/cover no-repeat fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    background: url('free-icon-snowflake-6400755.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 0%; /* Для создания круглой формы, если необходимо */
+}
+header {
+    position: relative;
+    background: linear-gradient(to right, #1a5276, #154360);
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    color: #fada5e; /* Новый цвет для заголовка */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Размещение элементов в центре */
+    align-items: flex-end; /* Выравнивание внизу */
+}
+
+nav ul li {
+    text-decoration: underline;
+    display: inline;
+    margin-right: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; /* Размер шрифта */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+nav a:hover {
+    color: #ffcc00; /* Цвет при наведении курсора */
+}
+
+main p {
+    margin-bottom: 1px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 20px;
+    /* Вы можете настроить значение по вашему желанию */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.small-image {
+    margin-left: 20px;
+    /* Вы можете настроить значение отступа по вашему желанию */
+    max-width: 150px;
+    /* Вы можете настроить максимальную ширину изображения */
+    border-radius: 8px;
+}
+
+.separator {
+    width: 60%;
+    /* Занимает всю ширину родительского контейнера */
+    margin: 10px 0;
+    /* Можете настроить значения отступа сверху и снизу */
+    border: 2px solid #ccc;
+    /* Цвет и стиль линии */
+    margin-left: 20px;
+}
+
+.h1M {
+    white-space: nowrap;
+    /* Предотвращает перенос строки внутри h1 */
+}
+
+.container1 {
+
+    max-width: 500px; /* Максимальная ширина контейнера */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+.p-add{
+    max-width: 260px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    background: linear-gradient(to right, rgba(70, 150, 200, 0.6), rgba(2, 50, 120, 0.6));
+    color: #fafafa;
+}
+.image-container {
+    display: flex;
+    width: 100px; /* Ширина изображения */
+    height: 100px;
+}
+
+.image-container img {
+    margin-right: 10px; /* Расстояние между изображениями */
+}

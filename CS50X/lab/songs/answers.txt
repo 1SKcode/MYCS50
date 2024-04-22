@@ -1,0 +1,33 @@
+So, this week I finished lab work No. 7 and here I want to reflect on the questions posed:
+
+    1. If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+    2. Hypothesize about why the way you’ve calculated this aura might not be very
+    representative of the listener. What better ways of calculating this aura would you propose?
+
+I got acquainted with the sources and went a little deeper into the topic of sound aura.
+If we summarize the information we have read, then:
+Energy: An indicator of how active and energetic music is.
+    This can be expressed through tempo, instrumentation, and overall brightness.
+Valence: Reflects the emotional coloring of music,
+    from positive (happiness, joy) to negative (sadness, longing).
+Danceability: Reflects how well the music is suitable for dancing.
+    This is due to the rhythm and structure of the composition.
+
+MY SONG ANALYSIS:
+
+High Energy: "Plug Walk," "SICKO MODE," "HUMBLE."
+Medium Energy: "Perfect Duet," "Perfect," "One Kiss."
+Low Energy: "Changes," "Happier," "Silence."
+Positive Valence: "Happy," "Promises," "Congratulations."
+Neutral Valence: "Thunder," "Believer," "In My Blood."
+Negative Valence: "SAD!," "Lucid Dreams," "Happier."
+Danceable: "Dura," "Taki Taki," "Havana."
+Less Danceable: "Changes," "Happier," "Silence."
+
+MY HYPOTHESIS:
+    On this set of 100 songs, it is impossible to accurately
+    draw conclusions about the sound aura solely on the statistics of
+    energy, valence and dance. You also need to take into account:
+    The variety of flavors
+    Personal preferences
+    Dynamic mood: The sound aura can change depending on the mood of the listener at a particular time.

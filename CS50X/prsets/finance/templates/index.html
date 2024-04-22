@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <h3>Buy Stocks</h3>
+    {% if success_message %}
+        <div class="alert alert-success" role="alert">
+            {{ success_message }}
+            Symbol: {{ symbol }}
+            Shares bought: {{ shares_bought }}
+            Total cost: {{ total_cost | usd }}
+        </div>
+    {% endif %}
+    <form action="/buy" method="post">
+        <!-- остальной код формы... -->
+    </form>
+{% endblock %}

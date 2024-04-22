@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+How do you know?: As the number of numbers increases, time grows at a quadratic rate.
+A distinctive feature of the bubble algorithm: a pre-sorted array can be determined by a permutation counter
+
+sort2 uses: merge sort
+
+How do you know?: The distinctive feature of this algorithm is its speed! The speed of n log n is clearly traceable in comparison with sorting 5 thousand elements and 50 thousand.
+
+sort3 uses:selection sort
+
+How do you know?: I realized that this is a selection sort due to the same sorting
+timeof the reverse array and the already sorted array. Thus, the notation of theta large will be quadratic.
